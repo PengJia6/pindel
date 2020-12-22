@@ -1,5 +1,11 @@
 # Pindel
 
+## TODO List
+
+* support cram input 
+
+
+
 ## Compiling 
 Before you compiling Pindel, you should ensure your system has installed zlib (https://www.zlib.net/).
 
