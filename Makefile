@@ -14,24 +14,24 @@ pindel: Makefile.local
 pindel-debug: Makefile.local
 	make -C src pindel-debug
 
-cppcheck: Makefile.local
-	make -C src test
+# cppcheck: Makefile.local
+# 	make -C src test
 
-acceptance-tests: Makefile.local pindel
-	make -C test acceptance-tests
-
-coverage-tests: Makefile.local pindel-debug
-	make -C test coverage-tests
-
-functional-tests: Makefile.local pindel
-	make -C test functional-tests
-
-regression-tests: Makefile.local pindel
-	make -C test regression-tests
+# acceptance-tests: Makefile.local pindel
+# 	make -C test acceptance-tests
+#
+# coverage-tests: Makefile.local pindel-debug
+# 	make -C test coverage-tests
+#
+# functional-tests: Makefile.local pindel
+# 	make -C test functional-tests
+#
+# regression-tests: Makefile.local pindel
+# 	make -C test regression-tests
 
 clean:
 	make -C src clean
-	make -C test clean
+# 	make -C test clean
 
 Makefile.local:
 	@echo '# Local configuration' > $@

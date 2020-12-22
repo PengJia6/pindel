@@ -1,0 +1,4 @@
+/snap/clion/137/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /mnt/project/Project_Pindel/pindel_update/pindel
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /mnt/project/Project_Pindel/pindel_update/pindel/cmake-build-debug

@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/pindel.dir/main.cpp.o  -o pindel 
